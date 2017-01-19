@@ -14,12 +14,11 @@ You can download the file from www.py4inf.com/code/mbox-short.txt
 """
 
 fname = raw_input('Enter a file name: ')
-
 try:
     fopen = open(fname)
+    for line in fopen:
+        line = line.rstrip().upper()
+        print line
+        
 except:
-    print 'It is not a valid file name'
-
-for line in fopen:
-    line = line.strip('\n')
-    print line.upper()
+    'Please enter a valid file name'
