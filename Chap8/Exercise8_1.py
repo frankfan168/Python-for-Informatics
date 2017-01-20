@@ -1,3 +1,5 @@
+#!usr/bin/python
+# -*- coding: utf-8 -*
 """
 Exercise8.1 Writeafunctioncalledchopthattakesalistandmodifiesit,remov- ing the first and last elements, and returns None.
 Then write a function called middle that takes a list and returns a new list that contains all but the first and last elements.

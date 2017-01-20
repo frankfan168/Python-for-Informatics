@@ -1,3 +1,5 @@
+#!usr/bin/python
+# -*- coding: utf-8 -*
 """
 Exercise 8.4 Download a copy of the file from www.py4inf.com/code/romeo.
 txt
