@@ -1,3 +1,9 @@
+#!usr/bin/python
+# -*- coding: utf-8 -*
+"""
+Exercise9.1 Writeaprogramthatreadsthewordsinwords.txtandstoresthem as keys in a dictionary. It doesn’t matter what the values are. Then you can use the in operator as a fast way to check whether a string is in the dictionary.
+"""
+
 store = dict()                 #void dict must be put before def
                                #if you put inside def, store will always be void
 def function():               
